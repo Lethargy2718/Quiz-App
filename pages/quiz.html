@@ -18,12 +18,24 @@
             </div>
         </header>
         <main>
-            <div id="cards">
-                <div class="card">
-                    <div class="question"></div>
-                    <div class="choices">
+            <!--Data from json goes here-->
+            <!--Four inputs assuming four choices-->
+            <div id="card">
+                <div id="question"></div>
+                <div id="choices">
+                    <input type="radio" id="choice1" value="a">
+                    <label id="choice1-label" for="choice1"></label>
+                    <input type="radio" id="choice2" value="b">
+                    <label id="choice2-label" for="choice2"></label>
+                    <input type="radio" id="choice3" value="c">
+                    <label id="choice3-label" for="choice3"></label>
+                    <input type="radio" id="choice4" value="d">
+                    <label id="choice4-label" for="choice4"></label>
+                </div>
+                <!--Empty div, should be manipulated to show the answer-->
+                <!--only after a choice is selected-->
+                <div id="answer">
 
-                    </div>
                 </div>
             </div>
         </main>
