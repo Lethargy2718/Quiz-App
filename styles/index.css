@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
@@ -5,21 +6,120 @@
 }
 
 body{
+    font-family: "Nunito", serif;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
+    justify-content: space-between; 
+    margin: 0;
+    padding: 0;
 }
 
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex: 0 0 auto;
+    background-color: #0D1321;
+    font-size: 24px;
+    padding: 24px 48px;
+}
+
+#logo{
+    color: #F9FAF8;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    padding: 32px;
+    background-color: #3E5C76;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    gap: 32px;
+    padding: 32px;
+}
+
+#main-text{
+    font-size: 48px;
+    color: #F9FAF8;
+    align-self: flex-start;
+}
+
+#button-div{
+    align-self: flex-end;
+}
+
+#button-div input{
+    padding: 18px 36px;
+    font-size: 24px;
+    color: #E5E7EB;
+    background-color: #3E5C76;
+    border: 1px solid #F9FAF8;
+    border-radius: 10px;
+}
+
+#button-div input:hover{
+    cursor: pointer;
+    box-shadow: -3px 3px 10px #1f2e3c;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    background-color: #0D1321;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 32px;
 }
 
 ul{
     display: flex;
     list-style: none;
-    gap: 16px; 
+    padding: 0;
+    font-size: 18px;
+    gap: 48px; 
 }
 
 a{
     text-decoration: none;
+    color: #E5E7EB;
+}
+
+@media(max-width:600px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        padding: 8px;
+    }
+
+    #button-div{
+        align-self: center;
+    }
+    
+    #main-text{
+        font-size: 30px;
+    }
+
+    main{
+        padding: 16px;
+    }
+
+    footer{
+        padding: 24px 8px;
+    }
+
+    #button-div input:active{
+        background-color: #1f2e3c;
+    }
 }
