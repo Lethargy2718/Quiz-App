@@ -15,6 +15,8 @@ body{
     padding: 0;
 }
 
+/* header */
+
 header{
     display: flex;
     justify-content: space-between;
@@ -29,6 +31,10 @@ header{
     color: #F9FAF8;
 }
 
+/* header done */
+
+/* main content */
+
 main{
     display: flex;
     justify-content: center;
@@ -42,10 +48,11 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 2px solid #F9FAF8;
-    border-radius: 10px;
+    background-color: #3E5C76;
+    border: 3px solid #0D1321;
+    border-radius: 15px;
     gap: 32px;
-    padding: 32px;
+    padding: 60px;
 }
 
 #main-text{
@@ -63,7 +70,7 @@ main{
     font-size: 24px;
     color: #E5E7EB;
     background-color: #3E5C76;
-    border: 1px solid #F9FAF8;
+    border: 1px solid #0D1321;
     border-radius: 10px;
 }
 
@@ -71,6 +78,10 @@ main{
     cursor: pointer;
     box-shadow: -3px 3px 10px #1f2e3c;
 }
+
+/* main content done */
+
+/* footer */
 
 footer{
     display: flex;
@@ -82,6 +93,8 @@ footer{
     color: #E5E7EB;
     padding: 32px;
 }
+
+/* footer done */
 
 ul{
     display: flex;
