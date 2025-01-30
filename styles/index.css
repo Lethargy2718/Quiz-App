@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    justify-content: space-between; 
+    height: 100vh;
     margin: 0;
     padding: 0;
 }
@@ -33,7 +33,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 85vh;
+    flex: 1;
     padding: 32px;
     background-color: #3E5C76;
 }
