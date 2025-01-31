@@ -50,9 +50,15 @@ main{
     justify-content: center;
     background-color: #3E5C76;
     border: 3px solid #0D1321;
+    transition: 0.2s all linear;
     border-radius: 15px;
     gap: 32px;
     padding: 60px;
+}
+
+.container:hover{
+    box-shadow: -3px 3px 10px #0D1321;
+    transition: 0.3s all linear;
 }
 
 #main-text{
@@ -69,14 +75,16 @@ main{
     padding: 18px 36px;
     font-size: 24px;
     color: #E5E7EB;
-    background-color: #3E5C76;
+    background-color: #1D2D44;
     border: 1px solid #0D1321;
     border-radius: 10px;
+    transition: 0.2s all linear;
 }
 
 #button-div input:hover{
     cursor: pointer;
     box-shadow: -3px 3px 10px #1f2e3c;
+    transition: 0.3s all linear;    
 }
 
 /* main content done */

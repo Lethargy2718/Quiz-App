@@ -46,11 +46,18 @@ main{
     display: flex;
     flex-direction: column;
     padding: 36px;
+    width: 50%;
     border: 2px solid #0D1321;
     border-radius: 15px;
     gap: 16px;
     background-color: #3E5C76;
     color: #F9FAF8;
+    transition: 0.2s all linear;
+}
+
+#card:hover{
+    box-shadow: -3px 3px 10px #0D1321;
+    transition: 0.3s all linear;
 }
 
 #question{
@@ -60,6 +67,7 @@ main{
 #buttons{
     display: flex;
     justify-content: space-around;
+    gap: 16px;
     align-items: center ;
 }
 
@@ -67,15 +75,32 @@ main{
     width: 100px;
     padding: 8px;
     font-size: 18px;
-    background-color: #F0EBD8;
+    background-color: #1D2D44;
+    color: #E5E7EB;
     border-radius: 10px;
     border: 1px solid #0D1321;
+    transition: 0.2s all linear;
 }
 
 #buttons input:hover{
     cursor: pointer;
     box-shadow: -3px 3px 10px #1f2e3c;
+    transition: 0.2s all linear;
 }
+
+.choice{
+    appearance: none;
+    border: 2px solid #999;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    transition: 0.2s all linear;
+}
+
+.choice:checked{
+    border: 5px solid #1D2D44 ;
+}
+
 /* main content done */
 
 /* footer */
@@ -106,18 +131,7 @@ a{
     color: #E5E7EB;
 }
 
-.choice{
-    appearance: none;
-    border: 2px solid #E5E7EB;
-    border-radius: 50%;
-    width: 16px;
-    height: 16px;
-    transition: 0.2s all linear;
-}
 
-.choice:checked{
-    border: 5px solid #F0EBD8 ;
-}
 
 label{
     font-size: 24px;
@@ -134,6 +148,18 @@ label{
 
     footer{
         padding: 24px 8px;
+    }
+
+    #card{
+        width: 95%;
+    }
+
+    #question{
+        font-size: 24px;
+    }
+
+    label{
+        font-size: 18px;
     }
 
 }
