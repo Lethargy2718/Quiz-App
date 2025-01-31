@@ -21,7 +21,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex: 0 0 auto;
     background-color: #0D1321;
     font-size: 24px;
     padding: 24px 48px;
@@ -40,51 +39,77 @@ main{
     justify-content: center;
     align-items: center;
     flex: 1;
-    padding: 32px;
     background-color: #748CAB;
 }
 
-.container{
+#card{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    background-color: #3E5C76;
-    border: 3px solid #0D1321;
-    transition: 0.2s all linear;
+    justify-content: space-between;
+    padding: 36px;
+    width: 50%;
+    height: 90%;
+    border: 2px solid #0D1321;
     border-radius: 15px;
-    gap: 32px;
-    padding: 60px;
+    gap: 16px;
+    background-color: #3E5C76;
+    color: #F9FAF8;
+    transition: 0.2s all linear;
 }
 
-.container:hover{
+#card:hover{
     box-shadow: -3px 3px 10px #0D1321;
     transition: 0.3s all linear;
 }
 
-#main-text{
-    font-size: 48px;
-    color: #F9FAF8;
-    align-self: flex-start;
+#question{
+    font-size: 36px;
 }
 
-#button-div{
-    align-self: flex-end;
+#answer{
+    height: 200px;
 }
 
-#button-div input{
-    padding: 18px 36px;
-    font-size: 24px;
-    color: #E5E7EB;
+#buttons{
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    align-items: center;
+}
+
+#buttons input{
+    width: 100px;
+    padding: 8px;
+    font-size: 18px;
     background-color: #1D2D44;
-    border: 1px solid #0D1321;
+    color: #E5E7EB;
     border-radius: 10px;
+    border: 1px solid #0D1321;
     transition: 0.2s all linear;
 }
 
-#button-div input:hover{
+#buttons input:hover{
     cursor: pointer;
     box-shadow: -3px 3px 10px #1f2e3c;
-    transition: 0.3s all linear;    
+    transition: 0.2s all linear;
+}
+
+#choices{
+    flex-shrink: 0;
+    padding-left: 18px;
+}
+
+.choice{
+    appearance: none;
+    border: 2px solid #999;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    transition: 0.2s all linear;
+}
+
+.choice:checked{
+    border: 5px solid #1D2D44 ;
 }
 
 /* main content done */
@@ -117,6 +142,14 @@ a{
     color: #E5E7EB;
 }
 
+
+
+label{
+    font-size: 24px;
+}
+
+/* media queryyyy */
+
 @media(max-width:600px){
     header{
         flex-direction: column;
@@ -124,23 +157,22 @@ a{
         padding: 8px;
     }
 
-    #button-div{
-        align-self: center;
-    }
-    
-    #main-text{
-        font-size: 30px;
-    }
-
-    main{
-        padding: 16px;
-    }
-
     footer{
         padding: 24px 8px;
     }
 
-    #button-div input:active{
-        background-color: #1f2e3c;
+    #card{
+        width: 95%;
     }
+
+    #question{
+        font-size: 24px;
+    }
+
+    #choices{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
 }
