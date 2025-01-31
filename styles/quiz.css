@@ -45,8 +45,10 @@ main{
 #card{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: 36px;
     width: 50%;
+    height: 90%;
     border: 2px solid #0D1321;
     border-radius: 15px;
     gap: 16px;
@@ -64,11 +66,15 @@ main{
     font-size: 36px;
 }
 
+#answer{
+    height: 200px;
+}
+
 #buttons{
     display: flex;
     justify-content: space-around;
     gap: 16px;
-    align-items: center ;
+    align-items: center;
 }
 
 #buttons input{
@@ -86,6 +92,11 @@ main{
     cursor: pointer;
     box-shadow: -3px 3px 10px #1f2e3c;
     transition: 0.2s all linear;
+}
+
+#choices{
+    flex-shrink: 0;
+    padding-left: 18px;
 }
 
 .choice{
@@ -158,8 +169,10 @@ label{
         font-size: 24px;
     }
 
-    label{
-        font-size: 18px;
+    #choices{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
     }
 
 }

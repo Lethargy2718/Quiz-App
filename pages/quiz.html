@@ -5,6 +5,7 @@
         <meta name="author" content="OmarCompiled">
         <link rel="stylesheet" href="../styles/quiz.css">
         <script src=""></script> <!--Link the js-->
+        <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
     </head>
     <body>
         <header>
@@ -25,32 +26,34 @@
                 <div id="choices">
                     <div>
                         <input type="radio" id="choice1" class="choice" name="choice" value="a">
-                        <label id="choice1-label" for="choice1">drtgr</label>
+                        <label id="choice1-label" for="choice1">Lorem</label>
                     </div>
                     <div>
                         <input type="radio" id="choice2" class="choice" name="choice" value="b">
-                        <label id="choice2-label" for="choice2">rdesg</label>
+                        <label id="choice2-label" for="choice2">Ipsum</label>
                     </div>
-                    <div>
+                    <!-- <div>
                         <input type="radio" id="choice3" class="choice" name="choice" value="c">
                         <label id="choice3-label" for="choice3">erwg</label>
                     </div>
                     <div>
                         <input type="radio" id="choice4" class="choice" name="choice" value="d">
                         <label id="choice4-label" for="choice4">wef</label>
-                    </div>    
-                    <div>
+                    </div>     -->
+                    <!-- <div>
                         
-                    </div>                
+                    </div>    -->             
                 </div>
                 <!--Empty div, should be manipulated to show the answer-->
                 <!--only after a choice is selected-->
                 <div id="answer">
-                    
+                    <strong>Answer: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
                 </div>
                 <div id="buttons">
                     <div><input type="button" value="Previous"></div>
-                    <div><input type="button" value="Next" onclick="nextQuestion()"></div>
+                    <div><input type="button" value="Next" onclick=""></div>
                 </div>
             </div>
         </main>
