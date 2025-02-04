@@ -112,6 +112,10 @@ main{
     transition: 0.2s all linear;
 }
 
+.choice:hover,label:hover{
+    cursor: pointer;
+}
+
 .choice:checked{
     border: 5px solid #1D2D44 ;
 }
