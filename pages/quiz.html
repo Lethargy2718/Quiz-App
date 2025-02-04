@@ -4,7 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="OmarCompiled">
         <link rel="stylesheet" href="../styles/quiz.css">
-        <script src=""></script> <!--Link the js-->
+        <script src="../scripts/index.js" type="module"></script>
         <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
     </head>
     <body>
@@ -47,12 +47,12 @@
                 <!--Empty div, should be manipulated to show the answer-->
                 <!--only after a choice is selected-->
                 <div id="answer"><!--Max: 20 words/answer-->
-                    <strong>Answer: </strong>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum incidunt eum quibusdam non placeat id eos pariatur impedit animi fugit.
+                    <strong></strong>
+                    <p id="explanation"></p>
                 </div>
                 <div id="buttons">
-                    <div><input type="button" value="Previous"></div>
-                    <div><input type="button" value="Next" onclick=""></div>
+                    <div><input type="button" value="Submit" id="submitBtn"></div>
+                    <!-- <div><input type="button" value="Next" onclick=""></div> -->
                 </div>
             </div>
         </main>

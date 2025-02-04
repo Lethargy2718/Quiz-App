@@ -116,6 +116,16 @@ main{
     border: 5px solid #1D2D44 ;
 }
 
+/* for correct choices */
+.choice.correct{
+    border: 5px solid lightgreen;
+}
+
+/* for incorrect choices */
+.choice.incorrect{
+    border: 5px solid lightcoral;
+}
+
 /* main content done */
 
 /* footer */

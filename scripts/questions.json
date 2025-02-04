@@ -1,0 +1,51 @@
+[
+    {
+        "content": "Is 8 a number?",
+        "choices": {
+            "a": "Yeah",
+            "b": "Nah"
+        },
+        "correctAnswer": "a",
+        "explanation": "8 is a numerical value."
+    },
+    {
+        "content": "Which of the following is a fruit?",
+        "choices": {
+            "a": "Apple",
+            "b": "Carrot",
+            "c": "Potato",
+            "d": "Cucumber"
+        },
+        "correctAnswer": "a",
+        "explanation": "Apple is a fruit, while Carrot and Potato are vegetables."
+    },
+    {
+        "content": "Is 'book' a number?",
+        "choices": {
+            "a": "Yeah",
+            "b": "Nah"
+        },
+        "correctAnswer": "b",
+        "explanation": "'Book' is an object, not a number."
+    },
+    {
+        "content": "Which of these is a planet?",
+        "choices": {
+            "a": "Earth",
+            "b": "Moon",
+            "c": "Sun"
+        },
+        "correctAnswer": "a",
+        "explanation": "Earth is a planet, while Moon is a satellite and Sun is a star."
+    },
+    {
+        "content": "Which of the following is a mammal?",
+        "choices": {
+            "a": "Shark",
+            "b": "Whale",
+            "c": "Eagle"
+        },
+        "correctAnswer": "b",
+        "explanation": "Whale is a mammal, while Shark is a fish and Eagle is a bird."
+    }
+]
