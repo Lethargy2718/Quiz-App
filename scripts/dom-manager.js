@@ -1,3 +1,5 @@
+import { loadQuestionsFromAPI } from "./index.js";
+
 export class DOMManager {
     constructor(user, questionManager, questionContainer, choicesContainer, answerContainer, submitButton) {
         this.user = user;
@@ -13,7 +15,7 @@ export class DOMManager {
         this.buttonMapping = {
             "submit": () => this.submit(),
             "next": () => this.next(),
-            "play-again": () => this.startQuiz(),
+            "play-again": async () => { await loadQuestionsFromAPI(); this.startQuiz(); }
         };
 
         this.submitButton.addEventListener("click", this.manageButton.bind(this));
@@ -22,7 +24,9 @@ export class DOMManager {
     startQuiz() {
         this.questionContainer.style.placeSelf = "auto"; // THIS IS TEMPORARY AND WILL BE REMOVED ONCE THERE IS AN ACTUAL "GAME OVER" SCREEN!!!
         this.user.reset();
-        this.questionManager.shuffleQuestions();
+        // Useless now as the questions are randomized in the first place. Might be reused later.
+        // this.questionManager.shuffleQuestions();
+        this.questionManager.start(); // Pass "true" to shuffle.
         this.displayQuestion();
     }
 
@@ -94,7 +98,7 @@ export class DOMManager {
         else this.incorrect(choice);
 
         const explanation = this.questionManager.currentQuestion.explanation;
-        this.explanationContainer.textContent = "Explanation: " + explanation;
+        if (explanation) this.explanationContainer.textContent = "Explanation: " + explanation;
 
         this.submitButton.value = "Next";
         this.submitButton.setAttribute("data-type", "next");

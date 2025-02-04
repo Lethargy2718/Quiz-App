@@ -25,10 +25,14 @@ class QuestionManager {
         this.questions.push(question);
     }
 
+    start(shuffle = false) {
+        this.currentQuestionIndex = 0;
+        if (shuffle) this.shuffleQuestions();
+        this.currentQuestion = this.questions[0];
+    }
+
     shuffleQuestions() {
         this.questions.sort(() => Math.random() - 0.5);
-        this.currentQuestionIndex = 0;
-        this.currentQuestion = this.questions[0];
     }
 
     checkAnswer(answer) {
@@ -64,13 +68,13 @@ class QuestionManager {
 }
 
 class QuestionFactory {
-    static createQuestion(content, choices, correctAnswer, explanation) {
+    static createQuestion(content, choices, correctAnswer, explanation = "") {
         return new Question(content, choices, correctAnswer, explanation);
     }
 }
 
 class Question {
-    constructor(content, choices, correctAnswer, explanation) {
+    constructor(content, choices, correctAnswer, explanation = "") {
         this.content = content;
         this.choices = choices;
         this.correctAnswer = correctAnswer;

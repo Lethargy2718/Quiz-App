@@ -1,51 +1,1102 @@
 [
     {
-        "content": "Is 8 a number?",
+        "content": "Who painted the Mona Lisa?",
         "choices": {
-            "a": "Yeah",
-            "b": "Nah"
+            "a": "Vincent van Gogh",
+            "b": "Pablo Picasso",
+            "c": "Leonardo da Vinci",
+            "d": "Michelangelo"
         },
-        "correctAnswer": "a",
-        "explanation": "8 is a numerical value."
+        "correctAnswer": "c",
+        "explanation": "Leonardo da Vinci painted the Mona Lisa during the Renaissance."
     },
     {
-        "content": "Which of the following is a fruit?",
+        "content": "What is the capital of Australia?",
         "choices": {
-            "a": "Apple",
-            "b": "Carrot",
-            "c": "Potato",
-            "d": "Cucumber"
+            "a": "Sydney",
+            "b": "Melbourne",
+            "c": "Canberra",
+            "d": "Perth"
         },
-        "correctAnswer": "a",
-        "explanation": "Apple is a fruit, while Carrot and Potato are vegetables."
+        "correctAnswer": "c",
+        "explanation": "Canberra has been the capital of Australia since 1913."
     },
     {
-        "content": "Is 'book' a number?",
+        "content": "Which element has the chemical symbol 'O'?",
         "choices": {
-            "a": "Yeah",
-            "b": "Nah"
+            "a": "Gold",
+            "b": "Oxygen",
+            "c": "Iron",
+            "d": "Silver"
         },
         "correctAnswer": "b",
-        "explanation": "'Book' is an object, not a number."
+        "explanation": "Oxygen's chemical symbol is 'O' on the periodic table."
     },
     {
-        "content": "Which of these is a planet?",
+        "content": "In what year did the Titanic sink?",
+        "choices": {
+            "a": "1905",
+            "b": "1912",
+            "c": "1923",
+            "d": "1898"
+        },
+        "correctAnswer": "b",
+        "explanation": "The Titanic sank on its maiden voyage in April 1912."
+    },
+    {
+        "content": "What is the largest planet in our solar system?",
         "choices": {
             "a": "Earth",
-            "b": "Moon",
-            "c": "Sun"
+            "b": "Saturn",
+            "c": "Jupiter",
+            "d": "Neptune"
         },
-        "correctAnswer": "a",
-        "explanation": "Earth is a planet, while Moon is a satellite and Sun is a star."
+        "correctAnswer": "c",
+        "explanation": "Jupiter's mass is more than twice that of all other planets combined."
     },
     {
-        "content": "Which of the following is a mammal?",
+        "content": "Who wrote 'To Kill a Mockingbird'?",
         "choices": {
-            "a": "Shark",
-            "b": "Whale",
-            "c": "Eagle"
+            "a": "J.D. Salinger",
+            "b": "Harper Lee",
+            "c": "Mark Twain",
+            "d": "Ernest Hemingway"
         },
         "correctAnswer": "b",
-        "explanation": "Whale is a mammal, while Shark is a fish and Eagle is a bird."
+        "explanation": "Harper Lee published the novel in 1960."
+    },
+    {
+        "content": "Which country is known as the Land of the Rising Sun?",
+        "choices": {
+            "a": "China",
+            "b": "South Korea",
+            "c": "Japan",
+            "d": "Thailand"
+        },
+        "correctAnswer": "c",
+        "explanation": "Japan's name translates to 'origin of the sun' in ancient texts."
+    },
+    {
+        "content": "What is the smallest prime number?",
+        "choices": {
+            "a": "0",
+            "b": "1",
+            "c": "2",
+            "d": "3"
+        },
+        "correctAnswer": "c",
+        "explanation": "2 is the smallest and only even prime number."
+    },
+    {
+        "content": "Which animal is the fastest land mammal?",
+        "choices": {
+            "a": "Cheetah",
+            "b": "Lion",
+            "c": "Gazelle",
+            "d": "Horse"
+        },
+        "correctAnswer": "a",
+        "explanation": "Cheetahs can reach speeds up to 70 mph."
+    },
+    {
+        "content": "What is the main ingredient in guacamole?",
+        "choices": {
+            "a": "Tomato",
+            "b": "Onion",
+            "c": "Avocado",
+            "d": "Lime"
+        },
+        "correctAnswer": "c",
+        "explanation": "Guacamole is traditionally made with mashed avocados."
+    },
+    {
+        "content": "Which planet is closest to the Sun?",
+        "choices": {
+            "a": "Venus",
+            "b": "Mars",
+            "c": "Mercury",
+            "d": "Earth"
+        },
+        "correctAnswer": "c",
+        "explanation": "Mercury orbits the Sun at an average distance of 36 million miles."
+    },
+    {
+        "content": "Who discovered penicillin?",
+        "choices": {
+            "a": "Marie Curie",
+            "b": "Alexander Fleming",
+            "c": "Louis Pasteur",
+            "d": "Isaac Newton"
+        },
+        "correctAnswer": "b",
+        "explanation": "Alexander Fleming discovered penicillin in 1928."
+    },
+    {
+        "content": "What is the capital of Canada?",
+        "choices": {
+            "a": "Toronto",
+            "b": "Vancouver",
+            "c": "Ottawa",
+            "d": "Montreal"
+        },
+        "correctAnswer": "c",
+        "explanation": "Ottawa became Canada's capital in 1857."
+    },
+    {
+        "content": "Which language is the most widely spoken worldwide?",
+        "choices": {
+            "a": "English",
+            "b": "Mandarin Chinese",
+            "c": "Spanish",
+            "d": "Hindi"
+        },
+        "correctAnswer": "b",
+        "explanation": "Mandarin Chinese has over 1.1 billion native speakers."
+    },
+    {
+        "content": "What is the square root of 64?",
+        "choices": {
+            "a": "6",
+            "b": "7",
+            "c": "8",
+            "d": "9"
+        },
+        "correctAnswer": "c",
+        "explanation": "8 multiplied by 8 equals 64."
+    },
+    {
+        "content": "Which country gifted the Statue of Liberty to the USA?",
+        "choices": {
+            "a": "Spain",
+            "b": "France",
+            "c": "Italy",
+            "d": "United Kingdom"
+        },
+        "correctAnswer": "b",
+        "explanation": "France gifted the statue in 1886 to celebrate American independence."
+    },
+    {
+        "content": "Which gas do plants absorb during photosynthesis?",
+        "choices": {
+            "a": "Oxygen",
+            "b": "Nitrogen",
+            "c": "Carbon Dioxide",
+            "d": "Hydrogen"
+        },
+        "correctAnswer": "c",
+        "explanation": "Plants convert CO2 and sunlight into glucose and oxygen."
+    },
+    {
+        "content": "What is the hardest natural substance on Earth?",
+        "choices": {
+            "a": "Gold",
+            "b": "Iron",
+            "c": "Diamond",
+            "d": "Quartz"
+        },
+        "correctAnswer": "c",
+        "explanation": "Diamonds rank 10 on the Mohs scale of hardness."
+    },
+    {
+        "content": "Who is the author of '1984'?",
+        "choices": {
+            "a": "Aldous Huxley",
+            "b": "George Orwell",
+            "c": "Ray Bradbury",
+            "d": "J.R.R. Tolkien"
+        },
+        "correctAnswer": "b",
+        "explanation": "George Orwell published '1984' in 1949."
+    },
+    {
+        "content": "How many continents are there?",
+        "choices": {
+            "a": "5",
+            "b": "6",
+            "c": "7",
+            "d": "8"
+        },
+        "correctAnswer": "c",
+        "explanation": "The seven continents are Asia, Africa, North America, South America, Antarctica, Europe, and Australia."
+    },
+    {
+        "content": "Which planet has the most moons?",
+        "choices": {
+            "a": "Jupiter",
+            "b": "Saturn",
+            "c": "Uranus",
+            "d": "Neptune"
+        },
+        "correctAnswer": "b",
+        "explanation": "As of 2023, Saturn has over 140 confirmed moons."
+    },
+    {
+        "content": "What is the largest organ in the human body?",
+        "choices": {
+            "a": "Liver",
+            "b": "Skin",
+            "c": "Heart",
+            "d": "Lungs"
+        },
+        "correctAnswer": "b",
+        "explanation": "The skin accounts for about 15% of body weight."
+    },
+    {
+        "content": "Which country invented tea?",
+        "choices": {
+            "a": "India",
+            "b": "China",
+            "c": "Japan",
+            "d": "England"
+        },
+        "correctAnswer": "b",
+        "explanation": "Tea consumption dates back to ancient China around 2700 BCE."
+    },
+    {
+        "content": "Which war lasted from 1914 to 1918?",
+        "choices": {
+            "a": "World War I",
+            "b": "World War II",
+            "c": "Vietnam War",
+            "d": "Cold War"
+        },
+        "correctAnswer": "a",
+        "explanation": "World War I began after the assassination of Archduke Franz Ferdinand."
+    },
+    {
+        "content": "What is the currency of Japan?",
+        "choices": {
+            "a": "Won",
+            "b": "Yen",
+            "c": "Ringgit",
+            "d": "Baht"
+        },
+        "correctAnswer": "b",
+        "explanation": "The yen has been Japan's currency since the Meiji era."
+    },
+    {
+        "content": "Which bird is the symbol of peace?",
+        "choices": {
+            "a": "Eagle",
+            "b": "Dove",
+            "c": "Sparrow",
+            "d": "Owl"
+        },
+        "correctAnswer": "b",
+        "explanation": "The dove became a peace symbol in Christian and ancient cultures."
+    },
+    {
+        "content": "Who composed 'Für Elise'?",
+        "choices": {
+            "a": "Mozart",
+            "b": "Beethoven",
+            "c": "Bach",
+            "d": "Chopin"
+        },
+        "correctAnswer": "b",
+        "explanation": "Ludwig van Beethoven wrote the piece in the early 19th century."
+    },
+    {
+        "content": "What is the largest ocean on Earth?",
+        "choices": {
+            "a": "Atlantic",
+            "b": "Indian",
+            "c": "Arctic",
+            "d": "Pacific"
+        },
+        "correctAnswer": "d",
+        "explanation": "The Pacific Ocean covers about 63 million square miles."
+    },
+    {
+        "content": "Which country is Machu Picchu located in?",
+        "choices": {
+            "a": "Mexico",
+            "b": "Peru",
+            "c": "Chile",
+            "d": "Brazil"
+        },
+        "correctAnswer": "b",
+        "explanation": "Machu Picchu is a 15th-century Inca citadel in the Andes."
+    },
+    {
+        "content": "What is the boiling point of water in Celsius?",
+        "choices": {
+            "a": "90°C",
+            "b": "100°C",
+            "c": "110°C",
+            "d": "120°C"
+        },
+        "correctAnswer": "b",
+        "explanation": "Water boils at 100°C at sea level."
+    },
+    {
+        "content": "Which country is home to the kangaroo?",
+        "choices": {
+            "a": "South Africa",
+            "b": "Australia",
+            "c": "Argentina",
+            "d": "Indonesia"
+        },
+        "correctAnswer": "b",
+        "explanation": "Kangaroos are marsupials native to Australia."
+    },
+    {
+        "content": "Who was the first person to walk on the moon?",
+        "choices": {
+            "a": "Buzz Aldrin",
+            "b": "Neil Armstrong",
+            "c": "Yuri Gagarin",
+            "d": "Alan Shepard"
+        },
+        "correctAnswer": "b",
+        "explanation": "Neil Armstrong stepped onto the moon on July 20, 1969."
+    },
+    {
+        "content": "What is the capital of Italy?",
+        "choices": {
+            "a": "Venice",
+            "b": "Milan",
+            "c": "Rome",
+            "d": "Florence"
+        },
+        "correctAnswer": "c",
+        "explanation": "Rome has been Italy's capital since 1871."
+    },
+    {
+        "content": "Which planet is known for its rings?",
+        "choices": {
+            "a": "Mars",
+            "b": "Saturn",
+            "c": "Venus",
+            "d": "Uranus"
+        },
+        "correctAnswer": "b",
+        "explanation": "Saturn's rings are made mostly of ice particles."
+    },
+    {
+        "content": "Who wrote 'The Great Gatsby'?",
+        "choices": {
+            "a": "Ernest Hemingway",
+            "b": "F. Scott Fitzgerald",
+            "c": "John Steinbeck",
+            "d": "William Faulkner"
+        },
+        "correctAnswer": "b",
+        "explanation": "F. Scott Fitzgerald published the novel in 1925."
+    },
+    {
+        "content": "Which instrument measures atmospheric pressure?",
+        "choices": {
+            "a": "Thermometer",
+            "b": "Barometer",
+            "c": "Hygrometer",
+            "d": "Anemometer"
+        },
+        "correctAnswer": "b",
+        "explanation": "A barometer is used to predict weather changes."
+    },
+    {
+        "content": "What is the main component of the Sun?",
+        "choices": {
+            "a": "Oxygen",
+            "b": "Hydrogen",
+            "c": "Helium",
+            "d": "Carbon"
+        },
+        "correctAnswer": "b",
+        "explanation": "The Sun is about 70% hydrogen and 28% helium."
+    },
+    {
+        "content": "Which country is the largest by land area?",
+        "choices": {
+            "a": "China",
+            "b": "Canada",
+            "c": "Russia",
+            "d": "United States"
+        },
+        "correctAnswer": "c",
+        "explanation": "Russia spans over 6.6 million square miles."
+    },
+    {
+        "content": "What is the longest river in the world?",
+        "choices": {
+            "a": "Nile",
+            "b": "Amazon",
+            "c": "Yangtze",
+            "d": "Mississippi"
+        },
+        "correctAnswer": "a",
+        "explanation": "The Nile River is approximately 4,135 miles long."
+    },
+    {
+        "content": "Who invented the telephone?",
+        "choices": {
+            "a": "Thomas Edison",
+            "b": "Alexander Graham Bell",
+            "c": "Nikola Tesla",
+            "d": "Guglielmo Marconi"
+        },
+        "correctAnswer": "b",
+        "explanation": "Alexander Graham Bell patented the telephone in 1876."
+    },
+    {
+        "content": "Which animal is the national symbol of the United States?",
+        "choices": {
+            "a": "Eagle",
+            "b": "Lion",
+            "c": "Bear",
+            "d": "Bison"
+        },
+        "correctAnswer": "a",
+        "explanation": "The bald eagle appears on the Great Seal of the USA."
+    },
+    {
+        "content": "What is the capital of Egypt?",
+        "choices": {
+            "a": "Alexandria",
+            "b": "Cairo",
+            "c": "Luxor",
+            "d": "Giza"
+        },
+        "correctAnswer": "b",
+        "explanation": "Cairo has been Egypt's capital since 969 CE."
+    },
+    {
+        "content": "Which planet is called the 'Red Planet'?",
+        "choices": {
+            "a": "Venus",
+            "b": "Mars",
+            "c": "Jupiter",
+            "d": "Mercury"
+        },
+        "correctAnswer": "b",
+        "explanation": "Mars appears red due to iron oxide on its surface."
+    },
+    {
+        "content": "What is the capital of Brazil?",
+        "choices": {
+            "a": "Rio de Janeiro",
+            "b": "São Paulo",
+            "c": "Brasília",
+            "d": "Salvador"
+        },
+        "correctAnswer": "c",
+        "explanation": "Brasília became Brazil's capital in 1960."
+    },
+    {
+        "content": "Which country is the Taj Mahal located in?",
+        "choices": {
+            "a": "Pakistan",
+            "b": "India",
+            "c": "Bangladesh",
+            "d": "Nepal"
+        },
+        "correctAnswer": "b",
+        "explanation": "The Taj Mahal is in Agra, India, built by Shah Jahan."
+    },
+    {
+        "content": "What is the atomic number of carbon?",
+        "choices": {
+            "a": "4",
+            "b": "6",
+            "c": "8",
+            "d": "12"
+        },
+        "correctAnswer": "b",
+        "explanation": "Carbon has 6 protons, giving it an atomic number of 6."
+    },
+    {
+        "content": "Who is known as the 'Father of Computers'?",
+        "choices": {
+            "a": "Alan Turing",
+            "b": "Charles Babbage",
+            "c": "Bill Gates",
+            "d": "Steve Jobs"
+        },
+        "correctAnswer": "b",
+        "explanation": "Charles Babbage designed the first mechanical computer."
+    },
+    {
+        "content": "Which gas makes up most of Earth's atmosphere?",
+        "choices": {
+            "a": "Oxygen",
+            "b": "Carbon Dioxide",
+            "c": "Nitrogen",
+            "d": "Argon"
+        },
+        "correctAnswer": "c",
+        "explanation": "Nitrogen comprises about 78% of the atmosphere."
+    },
+    {
+        "content": "What is the largest desert in the world?",
+        "choices": {
+            "a": "Sahara",
+            "b": "Arabian",
+            "c": "Gobi",
+            "d": "Antarctic"
+        },
+        "correctAnswer": "d",
+        "explanation": "Antarctica is the largest cold desert, covering 5.5 million square miles."
+    },
+    {
+        "content": "Who painted 'Starry Night'?",
+        "choices": {
+            "a": "Claude Monet",
+            "b": "Vincent van Gogh",
+            "c": "Pablo Picasso",
+            "d": "Salvador Dalí"
+        },
+        "correctAnswer": "b",
+        "explanation": "Van Gogh painted 'Starry Night' in 1889."
+    },
+    {
+        "content": "What is the capital of South Africa?",
+        "choices": {
+            "a": "Cape Town",
+            "b": "Pretoria",
+            "c": "Johannesburg",
+            "d": "Three capitals: Pretoria, Cape Town, Bloemfontein"
+        },
+        "correctAnswer": "d",
+        "explanation": "South Africa has three capitals for different government branches."
+    },
+    {
+        "content": "Which country is known as the 'Land of a Thousand Lakes'?",
+        "choices": {
+            "a": "Canada",
+            "b": "Finland",
+            "c": "Sweden",
+            "d": "Norway"
+        },
+        "correctAnswer": "b",
+        "explanation": "Finland has over 180,000 lakes."
+    },
+    {
+        "content": "What is the capital of Argentina?",
+        "choices": {
+            "a": "Buenos Aires",
+            "b": "Santiago",
+            "c": "Lima",
+            "d": "Montevideo"
+        },
+        "correctAnswer": "a",
+        "explanation": "Buenos Aires has been Argentina's capital since 1880."
+    },
+    {
+        "content": "Which element is liquid at room temperature?",
+        "choices": {
+            "a": "Mercury",
+            "b": "Bromine",
+            "c": "Gallium",
+            "d": "Both a and b"
+        },
+        "correctAnswer": "d",
+        "explanation": "Mercury and bromine are both liquids at room temperature."
+    },
+    {
+        "content": "Who wrote 'The Catcher in the Rye'?",
+        "choices": {
+            "a": "J.D. Salinger",
+            "b": "F. Scott Fitzgerald",
+            "c": "Ernest Hemingway",
+            "d": "Mark Twain"
+        },
+        "correctAnswer": "a",
+        "explanation": "J.D. Salinger published the novel in 1951."
+    },
+    {
+        "content": "Which country has the most natural lakes?",
+        "choices": {
+            "a": "Russia",
+            "b": "Canada",
+            "c": "USA",
+            "d": "China"
+        },
+        "correctAnswer": "b",
+        "explanation": "Canada has over 2 million lakes, more than any other country."
+    },
+    {
+        "content": "What is the smallest country in the world?",
+        "choices": {
+            "a": "Monaco",
+            "b": "Vatican City",
+            "c": "San Marino",
+            "d": "Liechtenstein"
+        },
+        "correctAnswer": "b",
+        "explanation": "Vatican City is 0.17 square miles in area."
+    },
+    {
+        "content": "Who is the Greek god of the sea?",
+        "choices": {
+            "a": "Zeus",
+            "b": "Hades",
+            "c": "Poseidon",
+            "d": "Apollo"
+        },
+        "correctAnswer": "c",
+        "explanation": "Poseidon wields a trident and rules the oceans."
+    },
+    {
+        "content": "Which country is the origin of chocolate?",
+        "choices": {
+            "a": "Switzerland",
+            "b": "Mexico",
+            "c": "Ghana",
+            "d": "Brazil"
+        },
+        "correctAnswer": "b",
+        "explanation": "The Aztecs in Mexico consumed cocoa as early as 1900 BCE."
+    },
+    {
+        "content": "What is the capital of New Zealand?",
+        "choices": {
+            "a": "Auckland",
+            "b": "Wellington",
+            "c": "Christchurch",
+            "d": "Queenstown"
+        },
+        "correctAnswer": "b",
+        "explanation": "Wellington has been the capital since 1865."
+    },
+    {
+        "content": "Which planet has the longest day?",
+        "choices": {
+            "a": "Venus",
+            "b": "Jupiter",
+            "c": "Mercury",
+            "d": "Mars"
+        },
+        "correctAnswer": "a",
+        "explanation": "A day on Venus lasts 243 Earth days due to its slow rotation."
+    },
+    {
+        "content": "What is the largest species of shark?",
+        "choices": {
+            "a": "Great White Shark",
+            "b": "Whale Shark",
+            "c": "Tiger Shark",
+            "d": "Hammerhead Shark"
+        },
+        "correctAnswer": "b",
+        "explanation": "Whale sharks can grow up to 40 feet long."
+    },
+    {
+        "content": "Who discovered gravity?",
+        "choices": {
+            "a": "Albert Einstein",
+            "b": "Isaac Newton",
+            "c": "Galileo Galilei",
+            "d": "Nikola Tesla"
+        },
+        "correctAnswer": "b",
+        "explanation": "Newton formulated the law of universal gravitation in 1687."
+    },
+    {
+        "content": "Which country is the origin of the Olympic Games?",
+        "choices": {
+            "a": "Italy",
+            "b": "Greece",
+            "c": "France",
+            "d": "Egypt"
+        },
+        "correctAnswer": "b",
+        "explanation": "The ancient Olympics began in Olympia, Greece, in 776 BCE."
+    },
+    {
+        "content": "What is the capital of Spain?",
+        "choices": {
+            "a": "Barcelona",
+            "b": "Madrid",
+            "c": "Seville",
+            "d": "Valencia"
+        },
+        "correctAnswer": "b",
+        "explanation": "Madrid has been Spain's capital since 1561."
+    },
+    {
+        "content": "Which planet is the hottest in our solar system?",
+        "choices": {
+            "a": "Mercury",
+            "b": "Venus",
+            "c": "Mars",
+            "d": "Jupiter"
+        },
+        "correctAnswer": "b",
+        "explanation": "Venus's thick atmosphere traps heat, raising temperatures to 864°F."
+    },
+    {
+        "content": "Who wrote 'Pride and Prejudice'?",
+        "choices": {
+            "a": "Emily Brontë",
+            "b": "Charlotte Brontë",
+            "c": "Jane Austen",
+            "d": "Virginia Woolf"
+        },
+        "correctAnswer": "c",
+        "explanation": "Jane Austen published the novel in 1813."
+    },
+    {
+        "content": "What is the capital of Turkey?",
+        "choices": {
+            "a": "Istanbul",
+            "b": "Ankara",
+            "c": "Izmir",
+            "d": "Antalya"
+        },
+        "correctAnswer": "b",
+        "explanation": "Ankara replaced Istanbul as the capital in 1923."
+    },
+    {
+        "content": "Which country is the largest producer of coffee?",
+        "choices": {
+            "a": "Colombia",
+            "b": "Brazil",
+            "c": "Vietnam",
+            "d": "Indonesia"
+        },
+        "correctAnswer": "b",
+        "explanation": "Brazil produces about 40% of the world's coffee."
+    },
+    {
+        "content": "What is the capital of South Korea?",
+        "choices": {
+            "a": "Busan",
+            "b": "Seoul",
+            "c": "Incheon",
+            "d": "Daegu"
+        },
+        "correctAnswer": "b",
+        "explanation": "Seoul has been the capital since 1394."
+    },
+    {
+        "content": "Which country has the most islands?",
+        "choices": {
+            "a": "Indonesia",
+            "b": "Philippines",
+            "c": "Sweden",
+            "d": "Norway"
+        },
+        "correctAnswer": "c",
+        "explanation": "Sweden has over 220,000 islands, though many are uninhabited."
+    },
+    {
+        "content": "Who is the author of 'The Hobbit'?",
+        "choices": {
+            "a": "C.S. Lewis",
+            "b": "J.R.R. Tolkien",
+            "c": "George R.R. Martin",
+            "d": "J.K. Rowling"
+        },
+        "correctAnswer": "b",
+        "explanation": "Tolkien wrote 'The Hobbit' as a prelude to 'The Lord of the Rings'."
+    },
+    {
+        "content": "What is the capital of Sweden?",
+        "choices": {
+            "a": "Gothenburg",
+            "b": "Stockholm",
+            "c": "Malmo",
+            "d": "Uppsala"
+        },
+        "correctAnswer": "b",
+        "explanation": "Stockholm has been Sweden's capital since 1523."
+    },
+    {
+        "content": "Which country is the origin of the pizza?",
+        "choices": {
+            "a": "United States",
+            "b": "France",
+            "c": "Italy",
+            "d": "Greece"
+        },
+        "correctAnswer": "c",
+        "explanation": "Modern pizza originated in Naples, Italy, in the 18th century."
+    },
+    {
+        "content": "What is the capital of China?",
+        "choices": {
+            "a": "Shanghai",
+            "b": "Beijing",
+            "c": "Guangzhou",
+            "d": "Hong Kong"
+        },
+        "correctAnswer": "b",
+        "explanation": "Beijing has been China's capital for most of the past 800 years."
+    },
+    {
+        "content": "Which country is home to the Great Barrier Reef?",
+        "choices": {
+            "a": "Australia",
+            "b": "Indonesia",
+            "c": "Philippines",
+            "d": "Thailand"
+        },
+        "correctAnswer": "a",
+        "explanation": "The Great Barrier Reef is off the coast of Queensland."
+    },
+    {
+        "content": "Who wrote 'The Odyssey'?",
+        "choices": {
+            "a": "Homer",
+            "b": "Virgil",
+            "c": "Sophocles",
+            "d": "Plato"
+        },
+        "correctAnswer": "a",
+        "explanation": "Homer is the ancient Greek poet credited with composing the epic."
+    },
+    {
+        "content": "Which country has the most volcanoes?",
+        "choices": {
+            "a": "Indonesia",
+            "b": "Japan",
+            "c": "Chile",
+            "d": "United States"
+        },
+        "correctAnswer": "a",
+        "explanation": "Indonesia has over 130 active volcanoes due to tectonic activity."
+    },
+    {
+        "content": "What is the capital of Germany?",
+        "choices": {
+            "a": "Munich",
+            "b": "Berlin",
+            "c": "Frankfurt",
+            "d": "Hamburg"
+        },
+        "correctAnswer": "b",
+        "explanation": "Berlin became the capital of reunified Germany in 1990."
+    },
+    {
+        "content": "Which planet has the shortest day?",
+        "choices": {
+            "a": "Jupiter",
+            "b": "Saturn",
+            "c": "Neptune",
+            "d": "Mars"
+        },
+        "correctAnswer": "a",
+        "explanation": "Jupiter's day lasts about 9 hours and 56 minutes."
+    },
+    {
+        "content": "What is the largest bone in the human body?",
+        "choices": {
+            "a": "Femur",
+            "b": "Tibia",
+            "c": "Humerus",
+            "d": "Pelvis"
+        },
+        "correctAnswer": "a",
+        "explanation": "The femur (thigh bone) supports the body's weight."
+    },
+    {
+        "content": "Which country is the origin of the marathon?",
+        "choices": {
+            "a": "Italy",
+            "b": "Greece",
+            "c": "France",
+            "d": "Egypt"
+        },
+        "correctAnswer": "b",
+        "explanation": "The marathon commemorates the run from Marathon to Athens in 490 BCE."
+    },
+    {
+        "content": "What is the capital of Iceland?",
+        "choices": {
+            "a": "Reykjavik",
+            "b": "Oslo",
+            "c": "Helsinki",
+            "d": "Stockholm"
+        },
+        "correctAnswer": "a",
+        "explanation": "Reykjavik is the northernmost capital of a sovereign state."
+    },
+    {
+        "content": "Which country consumes the most chocolate per capita?",
+        "choices": {
+            "a": "Switzerland",
+            "b": "Germany",
+            "c": "Belgium",
+            "d": "United States"
+        },
+        "correctAnswer": "a",
+        "explanation": "Switzerland consumes about 19 pounds per person annually."
+    },
+    {
+        "content": "Who discovered radium and polonium?",
+        "choices": {
+            "a": "Rosalind Franklin",
+            "b": "Marie Curie",
+            "c": "Albert Einstein",
+            "d": "Isaac Newton"
+        },
+        "correctAnswer": "b",
+        "explanation": "Marie Curie won Nobel Prizes in Physics and Chemistry for her work."
+    },
+    {
+        "content": "Which country is the largest exporter of oil?",
+        "choices": {
+            "a": "Russia",
+            "b": "Saudi Arabia",
+            "c": "United States",
+            "d": "Canada"
+        },
+        "correctAnswer": "b",
+        "explanation": "Saudi Arabia leads in oil exports, though the US produces the most."
+    },
+    {
+        "content": "What is the capital of Thailand?",
+        "choices": {
+            "a": "Phuket",
+            "b": "Chiang Mai",
+            "c": "Bangkok",
+            "d": "Pattaya"
+        },
+        "correctAnswer": "c",
+        "explanation": "Bangkok has been Thailand's capital since 1782."
+    },
+    {
+        "content": "Which planet has the most extreme temperature fluctuations?",
+        "choices": {
+            "a": "Mercury",
+            "b": "Mars",
+            "c": "Venus",
+            "d": "Uranus"
+        },
+        "correctAnswer": "a",
+        "explanation": "Mercury ranges from -290°F at night to 800°F during the day."
+    },
+    {
+        "content": "Who is the author of 'The Divine Comedy'?",
+        "choices": {
+            "a": "Dante Alighieri",
+            "b": "Giovanni Boccaccio",
+            "c": "Petrarch",
+            "d": "Homer"
+        },
+        "correctAnswer": "a",
+        "explanation": "Dante wrote the epic poem between 1308 and 1321."
+    },
+    {
+        "content": "What is the capital of Norway?",
+        "choices": {
+            "a": "Bergen",
+            "b": "Oslo",
+            "c": "Trondheim",
+            "d": "Stavanger"
+        },
+        "correctAnswer": "b",
+        "explanation": "Oslo has been Norway's capital since 1814."
+    },
+    {
+        "content": "Which country invented paper?",
+        "choices": {
+            "a": "Japan",
+            "b": "China",
+            "c": "Egypt",
+            "d": "India"
+        },
+        "correctAnswer": "b",
+        "explanation": "Paper was first made in China during the Han Dynasty (206 BCE–220 CE)."
+    },
+    {
+        "content": "What is the capital of Kenya?",
+        "choices": {
+            "a": "Mombasa",
+            "b": "Nairobi",
+            "c": "Kisumu",
+            "d": "Nakuru"
+        },
+        "correctAnswer": "b",
+        "explanation": "Nairobi has been Kenya's capital since 1905."
+    },
+    {
+        "content": "Which country is the largest producer of diamonds?",
+        "choices": {
+            "a": "South Africa",
+            "b": "Russia",
+            "c": "Botswana",
+            "d": "Canada"
+        },
+        "correctAnswer": "b",
+        "explanation": "Russia produces about 30% of the world's diamonds by volume."
+    },
+    {
+        "content": "Who is the Greek goddess of wisdom?",
+        "choices": {
+            "a": "Hera",
+            "b": "Athena",
+            "c": "Aphrodite",
+            "d": "Artemis"
+        },
+        "correctAnswer": "b",
+        "explanation": "Athena sprang fully grown from Zeus's forehead."
+    },
+    {
+        "content": "What is the capital of Saudi Arabia?",
+        "choices": {
+            "a": "Mecca",
+            "b": "Riyadh",
+            "c": "Jeddah",
+            "d": "Medina"
+        },
+        "correctAnswer": "b",
+        "explanation": "Riyadh has been the capital since 1932."
+    },
+    {
+        "content": "Which country invented the compass?",
+        "choices": {
+            "a": "China",
+            "b": "Greece",
+            "c": "Egypt",
+            "d": "India"
+        },
+        "correctAnswer": "a",
+        "explanation": "The compass was first used in China during the Han Dynasty."
+    },
+    {
+        "content": "Which country is the origin of the marathon?",
+        "choices": {
+            "a": "Italy",
+            "b": "Greece",
+            "c": "France",
+            "d": "Egypt"
+        },
+        "correctAnswer": "b",
+        "explanation": "The marathon commemorates the run from Marathon to Athens in 490 BCE."
+    },
+    {
+        "content": "What is the capital of Canada?",
+        "choices": {
+            "a": "Toronto",
+            "b": "Vancouver",
+            "c": "Ottawa",
+            "d": "Montreal"
+        },
+        "correctAnswer": "c",
+        "explanation": "Ottawa is the capital of Canada, chosen for its central location."
+    },
+    {
+        "content": "Which planet is known as the Red Planet?",
+        "choices": {
+            "a": "Venus",
+            "b": "Mars",
+            "c": "Jupiter",
+            "d": "Saturn"
+        },
+        "correctAnswer": "b",
+        "explanation": "Mars is called the Red Planet due to its iron-rich surface that gives it a reddish appearance."
+    },
+    {
+        "content": "Who wrote 'To Kill a Mockingbird'?",
+        "choices": {
+            "a": "Harper Lee",
+            "b": "J.D. Salinger",
+            "c": "Mark Twain",
+            "d": "Ernest Hemingway"
+        },
+        "correctAnswer": "a",
+        "explanation": "Harper Lee wrote 'To Kill a Mockingbird,' which was published in 1960 and won the Pulitzer Prize."
     }
 ]
