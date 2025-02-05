@@ -48,12 +48,12 @@ async function loadQuestionsFromAPI() {
         console.log("From API: " + error);
         console.log("Resorting to the local JSON file...");
         questionManager.questions = [];
-        await loadQuestions();
+        await loadQuestionsFromJSON();
     }
 }
   
 // Create the questions' instances from the question json file's data.
-async function loadQuestions() {
+async function loadQuestionsFromJSON() {
     try {
         const response = await fetch('../scripts/questions.json');
         if (!response.ok) {
@@ -64,10 +64,9 @@ async function loadQuestions() {
             questionManager.addQuestion(QuestionFactory.createQuestion(question.content, question.choices, question.correctAnswer, question.explanation));
         });
         console.log("Loading from the local JSON file was successful \n");
-        console.log(data.length);
     } 
     catch (error) {
-        console.error("Error loading questions:", error);
+        console.error("Error loading questions: ", error);
     }
 }
 
