@@ -84,13 +84,13 @@ export class DOMManager {
     
     // Submit button
     submit() {
-        this.toggleChoices(true);
         const choice = this.choicesContainer.querySelector('input:checked');
         if (!choice) {
             this.alertChoose();
             return;
         }
-
+        
+        this.toggleChoices(true);
         const correct = this.questionManager.checkAnswer(choice.value);
         if (correct) {
             this.correct(choice);
