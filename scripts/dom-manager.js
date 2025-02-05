@@ -84,18 +84,22 @@ export class DOMManager {
     
     // Submit button
     submit() {
+        this.toggleChoices(true);
         const choice = this.choicesContainer.querySelector('input:checked');
         if (!choice) {
-            this.alertChoose();
+            // this.alertChoose();
+            // you forgot to retoggle the choices.
+            // this caused the radios to go unresponsive if
+            // you submit without choosing.
+            this.toggleChoices(false);
+            this.alertChoose();    
             return;
-        }
-        
-        this.toggleChoices(true);
+        } else if(choice) {this.explanationContainer.textContent = ""};
+
         const correct = this.questionManager.checkAnswer(choice.value);
         if (correct) {
             this.correct(choice);
-        }
-        else this.incorrect(choice);
+        } else this.incorrect(choice);
 
         const explanation = this.questionManager.currentQuestion.explanation;
         if (explanation) this.explanationContainer.textContent = "Explanation: " + explanation;
@@ -112,10 +116,14 @@ export class DOMManager {
         });
     }
 
-    alertChoose() {
-        alert("Choose an answer first!");
+    // alertChoose() {
+    //     alert("Choose an answer first!");
         
-        // Some sort of feedback has to be added here (like the submit or radio buttons shaking)
+    //     // Some sort of feedback has to be added here (like the submit or radio buttons shaking)
+    // }
+    alertChoose(){
+        this.explanationContainer.style = "color: red; font-size: 24px; text-align: center;";
+        this.explanationContainer.textContent = "Choose an answer before submitting!";
     }
 
     correct(input) {
@@ -154,7 +162,7 @@ export class DOMManager {
                     We Hope you had fun.<br>
                     Enjoy your stay.
         `;
-        this.explanationContainer.style = "font-size: 24px; text-align: center;";
+        this.explanationContainer.style = "font-size: 24px; text-align: center; border: 1px solid currentColor; border-radius: 10px; color: gold; padding: 16px;";
         this.questionContainer.style.placeSelf = "center";
     }
 }
