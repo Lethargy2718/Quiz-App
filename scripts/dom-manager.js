@@ -114,6 +114,7 @@ export class DOMManager {
 
     alertChoose() {
         alert("Choose an answer first!");
+        
         // Some sort of feedback has to be added here (like the submit or radio buttons shaking)
     }
 
@@ -147,7 +148,13 @@ export class DOMManager {
         this.questionContainer.textContent = `You got ${this.user.points}/${this.questionManager.questions.length}`;
         this.choicesContainer.innerHTML = "";
         this.strong.textContent = "";
-        this.explanationContainer.textContent = "";
+        let grading = (this.user.points > 5) ? "Good Job!":"Better Luck Next Time!";
+        this.explanationContainer.innerHTML = `
+                    ${grading}<br>
+                    We Hope you had fun.<br>
+                    Enjoy your stay.
+        `;
+        this.explanationContainer.style = "font-size: 24px; text-align: center;";
         this.questionContainer.style.placeSelf = "center";
     }
 }
