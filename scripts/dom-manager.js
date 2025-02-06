@@ -85,18 +85,18 @@ export class DOMManager {
     
     // Submit button
     submit() {
-        this.toggleChoices(true);
         const choice = this.choicesContainer.querySelector('input:checked');
         if (!choice) {
             // this.alertChoose();
             // you forgot to retoggle the choices.
             // this caused the radios to go unresponsive if
             // you submit without choosing.
-            this.toggleChoices(false);
+            // this.toggleChoices(false);
             this.alertChoose();    
             return;
         } else {this.explanationContainer.textContent = ""};
-
+        
+        this.toggleChoices(true);
         const correct = this.questionManager.checkAnswer(choice.value);
         if (correct) {
             this.correct(choice);
