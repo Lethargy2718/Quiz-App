@@ -87,11 +87,6 @@ export class DOMManager {
     submit() {
         const choice = this.choicesContainer.querySelector('input:checked');
         if (!choice) {
-            // this.alertChoose();
-            // you forgot to retoggle the choices.
-            // this caused the radios to go unresponsive if
-            // you submit without choosing.
-            // this.toggleChoices(false);
             this.alertChoose();    
             return;
         } else {this.explanationContainer.textContent = ""};
@@ -117,11 +112,6 @@ export class DOMManager {
         });
     }
 
-    // alertChoose() {
-    //     alert("Choose an answer first!");
-        
-    //     // Some sort of feedback has to be added here (like the submit or radio buttons shaking)
-    // }
     alertChoose(){
         this.explanationContainer.style = "color: red; font-size: 24px; text-align: center;";
         this.explanationContainer.textContent = "Choose an answer before submitting!";
