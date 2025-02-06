@@ -95,7 +95,7 @@ export class DOMManager {
             this.toggleChoices(false);
             this.alertChoose();    
             return;
-        } else if(choice) {this.explanationContainer.textContent = ""};
+        } else {this.explanationContainer.textContent = ""};
 
         const correct = this.questionManager.checkAnswer(choice.value);
         if (correct) {

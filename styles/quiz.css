@@ -63,11 +63,13 @@ main{
 }
 
 #question{
-    font-size: 36px;
+    font-size: 24px;
 }
 
 #answer{
     height: 200px;
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,6 +80,7 @@ main{
     display: flex;
     justify-content: space-around;
     gap: 16px;
+    flex-shrink: 0; 
     align-items: center;
 }
 
