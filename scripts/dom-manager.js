@@ -23,6 +23,7 @@ export class DOMManager {
 
     startQuiz() {
         this.questionContainer.style.placeSelf = "auto"; // THIS IS TEMPORARY AND WILL BE REMOVED ONCE THERE IS AN ACTUAL "GAME OVER" SCREEN!!!
+        this.explanationContainer.style = "";
         this.user.reset();
         // Useless now as the questions are randomized in the first place. Might be reused later.
         // this.questionManager.shuffleQuestions();

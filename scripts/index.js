@@ -12,7 +12,6 @@ const user = new User();
 const questionManager = new QuestionManager();
 const domManager = new DOMManager(user, questionManager, questionContainer, choicesContainer, answerContainer, button);
 
-
 function decodeHTML(text) {
     const textArea = document.createElement('textarea');
     textArea.innerHTML = text;
