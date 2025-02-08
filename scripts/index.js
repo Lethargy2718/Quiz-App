@@ -4,13 +4,14 @@ import { DOMManager } from "./dom-manager.js";
 
 const card = document.querySelector("#card");
 const questionContainer = card.querySelector("#question");
+const questionIndicator = document.querySelector("#indicator");
 const choicesContainer = card.querySelector("#choices");
 const answerContainer = card.querySelector("#answer");
 const button = card.querySelector("#submitBtn");
 
 const user = new User();
 const questionManager = new QuestionManager();
-const domManager = new DOMManager(user, questionManager, questionContainer, choicesContainer, answerContainer, button);
+const domManager = new DOMManager(user, questionManager, questionContainer, choicesContainer, answerContainer, button, questionIndicator);
 
 function decodeHTML(text) {
     const textArea = document.createElement('textarea');

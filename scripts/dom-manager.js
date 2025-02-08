@@ -1,10 +1,11 @@
 import { loadQuestionsFromAPI } from "./index.js";
 
 export class DOMManager {
-    constructor(user, questionManager, questionContainer, choicesContainer, answerContainer, submitButton) {
+    constructor(user, questionManager, questionContainer, choicesContainer, answerContainer, submitButton, questionIndicator) {
         this.user = user;
         this.questionManager = questionManager;
         this.questionContainer = questionContainer;
+        this.questionIndicator = questionIndicator;
         this.choicesContainer = choicesContainer;
         this.answerContainer = answerContainer;
         this.strong = answerContainer.querySelector("strong");
@@ -38,6 +39,7 @@ export class DOMManager {
         this.explanationContainer.textContent = "";
         this.submitButton.value = "Submit";
         this.submitButton.setAttribute("data-type", "submit");
+        this.questionIndicator.innerHTML = `${this.questionManager.currentQuestionIndex + 1}/${this.questionManager.questions.length}`;
     }
     
     displayChoices(question) {
@@ -155,5 +157,7 @@ export class DOMManager {
         `;
         this.explanationContainer.style = "font-size: 24px; text-align: center; border: 1px solid currentColor; border-radius: 10px; color: gold; padding: 16px;";
         this.questionContainer.style.placeSelf = "center";
+
+        this.questionIndicator.innerHTML = "";
     }
 }

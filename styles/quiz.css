@@ -36,8 +36,9 @@ header{
 
 main{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    flex-direction: column;
     flex: 1;
     background-color: #748CAB;
 }
@@ -131,6 +132,15 @@ main{
 /* for incorrect choices */
 .choice.incorrect{
     border: 5px solid lightcoral;
+}
+
+#indicator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    font-size: 21px;
+    gap: 8px;
 }
 
 /* main content done */
