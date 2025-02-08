@@ -155,7 +155,7 @@ export class DOMManager {
                     We Hope you had fun.<br>
                     Enjoy your stay.
         `;
-        this.explanationContainer.style = "font-size: 24px; text-align: center; border: 1px solid currentColor; border-radius: 10px; color: gold; padding: 16px;";
+        this.explanationContainer.style.cssText = "font-size: 24px; text-align: center; border: 1px solid currentColor; border-radius: 10px; color: gold; padding: 16px;";
         this.questionContainer.style.placeSelf = "center";
 
         this.questionIndicator.innerHTML = "";
