@@ -23,11 +23,9 @@ export class DOMManager {
     }
 
     startQuiz() {
-        this.questionContainer.style.placeSelf = "auto"; // THIS IS TEMPORARY AND WILL BE REMOVED ONCE THERE IS AN ACTUAL "GAME OVER" SCREEN!!!
+        this.questionContainer.style.placeSelf = "auto";
         this.explanationContainer.style = "";
         this.user.reset();
-        // Useless now as the questions are randomized in the first place. Might be reused later.
-        // this.questionManager.shuffleQuestions();
         this.questionManager.start(); // Pass "true" to shuffle.
         this.displayQuestion();
     }
@@ -145,7 +143,6 @@ export class DOMManager {
         this.submitButton.value = "Play Again";
         this.submitButton.setAttribute("data-type", "play-again");
 
-        // All of this will be modified once there is an actual "game over" screen".
         this.questionContainer.textContent = `You got ${this.user.points}/${this.questionManager.questions.length}`;
         this.choicesContainer.innerHTML = "";
         this.strong.textContent = "";
